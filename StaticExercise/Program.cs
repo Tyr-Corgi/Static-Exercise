@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var fahrenheight = 12;
+            var celsius = 40;
+            Console.WriteLine($"If it is {fahrenheight} degrees in fahrenheight, that will be {TempConverter.FahrenheitToCelsius(fahrenheight)} degrees celsius" );
+            Console.WriteLine($"If it is {celsius} degrees in celcius, that will be {TempConverter.CelsiusToFahrenheit(celsius)} degrees fahrenheight");
         }
+
+        
+
     }
 }
