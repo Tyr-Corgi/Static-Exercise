@@ -9,8 +9,5 @@
             Console.WriteLine($"If it is {fahrenheight} degrees in fahrenheight, that will be {TempConverter.FahrenheitToCelsius(fahrenheight)} degrees celsius" );
             Console.WriteLine($"If it is {celsius} degrees in celcius, that will be {TempConverter.CelsiusToFahrenheit(celsius)} degrees fahrenheight");
         }
-
-        
-
     }
 }
