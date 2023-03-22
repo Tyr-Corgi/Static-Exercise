@@ -6,22 +6,17 @@ using System.Threading.Tasks;
 
 namespace StaticExercise
 {
-    public class TempConverter
+    public static class TempConverter
     {
-        public TempConverter()
-        {
-
-        }
-
         public static double FahrenheitToCelsius(double fahrenheight)
         {
-            double celsius = (fahrenheight - 32) * .5555555555555556;
+            var celsius = (fahrenheight - 32) * (5/9d);
             return celsius;
         }
         
         public static double CelsiusToFahrenheit(double celsius)
         {
-            double fahrenheight = (celsius * 9/5) + 32;
+            var fahrenheight = (celsius * 9/5d) + 32;
             return fahrenheight;
         }
     }
